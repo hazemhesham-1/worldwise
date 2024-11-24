@@ -15,7 +15,7 @@ The WorldWise project utilizes the following technologies:
 
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/> &nbsp; &nbsp;[React](https://reactjs.org/)
 
-- <img src="./screenshots/react-router-svgrepo-com.svg" alt="Firebase" width="40" height="40"/> &nbsp; &nbsp;[React Router](https://reactrouter.com/)
+- [React Router](https://reactrouter.com/)
 
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="Firebase" width="40" height="40"/> &nbsp; &nbsp; [Firebase](https://firebase.google.com/)
 
