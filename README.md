@@ -24,3 +24,33 @@ The WorldWise project utilizes the following technologies:
 - [React leaflet](https://react-leaflet.js.org/)
 
 - CSS Modules
+
+
+## ⬇️Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/khaled-farahat/WorldWise.git
+   cd WorldWise
+   ```
+
+1. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## 🔧Usage
+
+1. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+1. Open your browser and navigate to [http://localhost:5173/](http://localhost:5173/) to access WorldWise application.
+
+1. Login with already created account
+
+1. Start adding your cities to the list
