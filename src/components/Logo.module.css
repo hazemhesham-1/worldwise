@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo img {
+    width: 60px;
+}
+.logo h3 {
+    color: #FFF;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+.logoLink {
+    text-decoration: none;
+}

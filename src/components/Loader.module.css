@@ -1,0 +1,17 @@
+.loaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.loader {
+    background-image: conic-gradient(rgba(0, 0, 0, 0) 30deg, var(--color-light-1));
+    mask-image: radial-gradient(rgba(0, 0, 0, 0) 50%, #000 52%);
+    border-radius: 50%;
+    width: 75px;
+    aspect-ratio: 1;
+    animation: rotate 0.7s linear infinite;
+}
+@keyframes rotate {
+    100% { transform: rotate(360deg); }
+}

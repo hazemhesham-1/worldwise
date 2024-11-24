@@ -1,0 +1,6 @@
+.layout {
+    background-color: var(--color-dark-3);
+    display: flex;
+    height: calc(100vh - 50px);
+    position: relative;
+}

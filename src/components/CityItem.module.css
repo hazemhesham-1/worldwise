@@ -1,0 +1,41 @@
+.cityItem {
+    background-color: var(--color-dark-3);
+    color: var(--color-light-1);
+    border-left: 5px solid var(--color-primary);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cityItem img {
+    width: 30px;
+}
+.cityItem h3 {
+    font-size: 18px;
+}
+.cityItem time {
+    margin-left: auto;
+}
+.cityItem.selected {
+    border: 2px solid var(--color-primary);
+    border-left: 5px solid var(--color-primary);
+}
+
+.removeBtn {
+    background-color: var(--color-dark-1);
+    color: var(--color-light-2);
+    border: none;
+    border-radius: 50%;
+    width: 26px;
+    aspect-ratio: 1;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+.removeBtn:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-dark-1);
+}

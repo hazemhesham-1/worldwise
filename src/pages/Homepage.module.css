@@ -1,0 +1,29 @@
+.homepage {
+    background-image: linear-gradient(rgba(52, 52, 52, 0.7), rgba(52, 52, 52, 0.7)), url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 50px);
+    padding: 25px 50px;
+}
+.homepage section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 85%;
+    text-align: center;
+}
+.homepage h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    line-height: 1.2;
+}
+.homepage h2 {
+    color: var(--color-light-2);
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

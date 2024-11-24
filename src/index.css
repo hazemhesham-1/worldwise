@@ -1,0 +1,35 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+@import "https://fonts.googleapis.com/css?family=Manrope";
+
+:root {
+  --color-primary: #00C46A;
+  --color-secondary: #FFB545;
+  --color-dark-1: #252525;
+  --color-dark-2: #2E3640;
+  --color-dark-3: #42484D;
+  --color-light-1: #EDEDED;
+  --color-light-2: #C8C8C8;
+  --color-light-3: #A0A0A0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--color-light-1);
+  margin: 0;
+  padding: 20px;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-dark-1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}

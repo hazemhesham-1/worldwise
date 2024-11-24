@@ -1,0 +1,27 @@
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.primary {
+    background-color: var(--color-primary);
+    color: var(--color-dark-1);
+}
+.back {
+    background-color: transparent;
+    color: var(--color-light-1);
+    border: 2px solid var(--color-light-1);
+}
+.position {
+    background-color: var(--color-primary);
+    color: var(--color-dark-1);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}

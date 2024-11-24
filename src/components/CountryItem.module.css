@@ -1,0 +1,16 @@
+.countryItem {
+    background-color: var(--color-dark-3);
+    border-left: 5px solid var(--color-secondary);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+}
+.countryItem img {
+    width: 40px;
+}
+.countryItem h3 {
+    font-size: 16px;
+}

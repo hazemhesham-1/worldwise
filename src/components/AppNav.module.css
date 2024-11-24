@@ -1,0 +1,20 @@
+.nav ul {
+    list-style-type: none;
+    background-color: var(--color-dark-3);
+    border-radius: 8px;
+    display: flex;
+    padding: 5px 0;
+    margin: 20px;
+}
+.nav a {
+    color: var(--color-light-1);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav a:global(.active) {
+    background-color: var(--color-dark-1);
+}
