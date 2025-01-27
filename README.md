@@ -1,6 +1,17 @@
-## Introduction
+<div align="center">
+  <img src="./src/assets/logo.png" alt="logo" width="90" height="auto">
+  <h1>WorldWise Application</h1>
+</div>
 
-WorldWise is a Web Application that enables you save the places where you have been and the places you want to go. It is a simple app that allows you to create a list of places you have been and places you want to go. You can also add notes to each place. It is a great way to keep track of your travels and plan your next trip.
+<div align="center">
+  
+  ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
+  
+</div>
+
+<p align="center">
+   WorldWise is a Web Application that enables you save the places where you have been and the places you want to go. It is a simple app that allows you to create a list of places you have been and places you want to go. You can also add notes to each place. It is a great way to keep track of your travels and plan your next trip.
+</p>
 
 ## Features
 
@@ -23,7 +34,7 @@ The WorldWise project utilizes the following technologies:
 - CSS Modules
 
 
-## Installation
+## Setup Instructions
 
 1. Clone the repository:
 
