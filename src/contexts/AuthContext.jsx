@@ -4,10 +4,10 @@ import { useReducer, createContext, useContext } from "react";
 const AuthContext = createContext();
 
 const FAKE_USER = {
-    name: "Jack",
-    email: "jack@example.com",
+    name: "Hazem Hesham",
+    email: "hazem.hesham@gmail.com",
     password: "123456",
-    avatar: "https://i.pravatar.cc/100?u=zz"
+    avatar: "https://www.upwork.com/profile-portraits/c18RFSXSv6uhPUN-pJ9iQy2ZNz8FR5Uvc-D9hl9L926c5UO6UbzENVXHiGmNUlIBDT",
 };
 
 const initialState = {

@@ -6,7 +6,7 @@ import { useAuth } from "../contexts/AuthContext";
 import Button from "../components/Button";
 
 function Login() {
-    const [email, setEmail] = useState("jack@example.com");
+    const [email, setEmail] = useState("hazem.hesham@gmail.com");
     const [password, setPassword] = useState("123456");
     const { isAuthenticated, userLogin } = useAuth();
 
