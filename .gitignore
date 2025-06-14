@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+.prettierrc
 dist-ssr
 *.local
 

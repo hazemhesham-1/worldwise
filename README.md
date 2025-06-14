@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="./src/assets/logo.png" alt="logo" width="90" height="auto">
+   <img src="./public/assets/logo.png" alt="logo" width="90" height="auto">
    <h1>WorldWise Application</h1>
 </div>
 

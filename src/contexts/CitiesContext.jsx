@@ -31,7 +31,7 @@ function CitiesProvider({ children }) {
             dispatch({ type: "loading" });
 
             try {
-                const res = await fetch(`http://${window.location.hostname}:9000/cities`);
+                const res = await fetch(`${window.location.origin}:9000/cities`);
                 if(!res.ok) throw new Error("Faild to fetch cities data");
 
                 const json = await res.json();
@@ -50,7 +50,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`http://${window.location.hostname}:9000/cities/${id}`);
+            const res = await fetch(`${window.location.origin}:9000/cities/${id}`);
             if(!res.ok) throw new Error("Faild to fetch city data");
 
             const json = await res.json();
@@ -65,7 +65,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`http://${window.location.hostname}:9000/cities`, {
+            const res = await fetch(`${window.location.origin}:9000/cities`, {
                 method: "POST",
                 body: JSON.stringify(newCity),
                 headers: {
@@ -88,7 +88,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`http://${window.location.hostname}:9000/cities/${id}`, {
+            const res = await fetch(`${window.location.origin}:9000/cities/${id}`, {
                 method: "DELETE"
             });
 

@@ -6,7 +6,7 @@ function Product() {
         <main className={styles.product}>
             <MainNav/>
             <section>
-                <img src="/src/assets/image-1.jpg" alt="a man standing with a camera"/>
+                <img src="/assets/image-1.jpg" alt="a man standing with a camera"/>
                 <div>
                     <h2>About WorldWise</h2>
                     <p>

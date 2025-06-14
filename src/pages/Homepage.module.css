@@ -1,5 +1,5 @@
 .homepage {
-    background-image: linear-gradient(rgba(52, 52, 52, 0.7), rgba(52, 52, 52, 0.7)), url("../assets/background.jpg");
+    background-image: linear-gradient(rgba(52, 52, 52, 0.7), rgba(52, 52, 52, 0.7)), url("/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

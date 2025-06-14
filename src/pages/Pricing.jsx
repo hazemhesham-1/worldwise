@@ -17,7 +17,7 @@ function Pricing() {
                         quos provident, laboriosam fugit voluptatem iste.
                     </p>
                 </div>
-                <img src="/src/assets/image-2.jpg" alt="a map with markers"/>
+                <img src="/assets/image-2.jpg" alt="a map with markers"/>
             </section>
         </main>
     );

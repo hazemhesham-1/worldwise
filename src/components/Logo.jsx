@@ -6,7 +6,7 @@ const Logo = () => {
         <Link to="/" className={styles.logoLink}>
             <div className={styles.logo}>
                 <img
-                    src="/src/assets/logo.png"
+                    src="/assets/logo.png"
                     alt="worldwise-logo"
                 />
                 <h3>WorldWise</h3>
