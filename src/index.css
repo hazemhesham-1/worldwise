@@ -2,34 +2,37 @@
 @import "https://fonts.googleapis.com/css?family=Manrope";
 
 :root {
-  --color-primary: #00C46A;
-  --color-secondary: #FFB545;
-  --color-dark-1: #252525;
-  --color-dark-2: #2E3640;
-  --color-dark-3: #42484D;
-  --color-light-1: #EDEDED;
-  --color-light-2: #C8C8C8;
-  --color-light-3: #A0A0A0;
+    --color-primary: #00C46A;
+    --color-secondary: #FFB545;
+    --color-dark-1: #252525;
+    --color-dark-2: #2E3640;
+    --color-dark-3: #42484D;
+    --color-light-1: #EDEDED;
+    --color-light-2: #C8C8C8;
+    --color-light-3: #A0A0A0;
+
+    --shadow: 0 8px 10px -4px rgba(255, 255, 255, 0.05), 0 6px 12px -2px rgba(0, 0, 0, 0.4);
 }
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-  font-family: "Manrope", sans-serif;
-  color: var(--color-light-1);
-  margin: 0;
-  padding: 20px;
+    font-family: "Manrope", sans-serif;
+    color: var(--color-light-1);
+    margin: 0;
 }
 
 .btn {
-  background-color: var(--color-primary);
-  color: var(--color-dark-1);
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: uppercase;
+    background-color: var(--color-primary);
+    color: var(--color-dark-1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
 }

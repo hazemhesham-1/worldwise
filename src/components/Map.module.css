@@ -1,13 +1,21 @@
 .mapContainer {
     background-color: var(--color-light-2);
     color: var(--color-dark-1);
-    height: calc(100vh - 40px);
-    width: 100%;
-    font-weight: 600;
     position: relative;
+    margin: 0 auto;
+    height: 256px;
+    width: 80%;
+    font-weight: 600;
 }
 .map {
     height: 100%;
+}
+
+@media (min-width: 768px) {
+    .mapContainer {
+        height: calc(100vh - 10px);
+        width: 100%;
+    }
 }
 
 :global(.leaflet-popup .leaflet-popup-content-wrapper) {

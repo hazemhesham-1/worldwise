@@ -29,6 +29,7 @@ function useGeolocation(defaultLocation = null) {
         });
     }
 
+    console.log({ location, getLocation, isLoading, error })
     return { location, getLocation, isLoading, error };
 }
 

@@ -58,6 +58,30 @@
         "lat": "37.877400737495094",
         "long": "23.814869433598773"
       }
+    },
+    {
+      "id": "faa4",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "imgURL": "https://flagsapi.com/EG/shiny/64.png",
+      "date": "1999-10-10T07:00",
+      "notes": "مصر أم الدنيا ❤️",
+      "position": {
+        "lat": "30.03105542654023",
+        "long": "31.42523843913991"
+      }
+    },
+    {
+      "id": "61b3",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "imgURL": "https://flagsapi.com/GB/shiny/64.png",
+      "date": "2023-01-28T10:00",
+      "notes": "Wonderful city!✨ I enjoyed walking in the streets at night.",
+      "position": {
+        "lat": "51.34433866059924",
+        "long": "0.010410759220822465"
+      }
     }
   ]
 }

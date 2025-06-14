@@ -1,16 +1,13 @@
 .product {
     background-color: var(--color-dark-2);
     padding: 25px 50px;
-    min-height: calc(100vh - 50px);
+    min-height: 100vh;
 }
 .product section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
+    gap: 15px;
     align-items: center;
     width: 100%;
-    min-width: 800px;
-    max-width: 900px;
     margin: 60px auto;
 }
 .product section img {
@@ -24,4 +21,13 @@
 .product section div p {
     line-height: 1.6;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .product section {
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+        min-width: 600px;
+        max-width: 768px;
+    }
 }

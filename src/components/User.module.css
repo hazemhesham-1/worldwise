@@ -11,6 +11,7 @@
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
+    box-shadow: var(--shadow);
     z-index: 999;
 }
 .user img {

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: 100vh;
 }
 .loader {
     background-image: conic-gradient(rgba(0, 0, 0, 0) 30deg, var(--color-light-1));

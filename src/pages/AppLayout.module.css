@@ -1,6 +1,18 @@
 .layout {
     background-color: var(--color-dark-3);
     display: flex;
-    height: calc(100vh - 50px);
+    flex-direction: column;
+    gap: 36px;
     position: relative;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .layout {
+        flex-direction: row;
+        gap: 0;
+        height: calc(100vh - 10px);
+        margin: 5px;
+        padding: 0;
+    }
 }
