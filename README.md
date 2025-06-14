@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="./src/assets/logo.png" alt="logo" width="90" height="auto">
-    <h1>WorldWise Application</h1>
+   <img src="./src/assets/logo.png" alt="logo" width="90" height="auto">
+   <h1>WorldWise Application</h1>
 </div>
 
 <div align="center">
 
-    ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
+   ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
 </div>
 
