@@ -1,6 +1,9 @@
 import PropTypes from "prop-types";
 import { useEffect, useReducer, useCallback, createContext, useContext } from "react";
 
+// const BASE_URL = "http://localhost:9000/cities";
+const BASE_URL = "/api/cities";
+
 const CitiesContext = createContext();
 
 const initialState = {
@@ -31,7 +34,7 @@ function CitiesProvider({ children }) {
             dispatch({ type: "loading" });
 
             try {
-                const res = await fetch(`${window.location.origin}:9000/cities`);
+                const res = await fetch(BASE_URL);
                 if(!res.ok) throw new Error("Faild to fetch cities data");
 
                 const json = await res.json();
@@ -50,7 +53,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`${window.location.origin}:9000/cities/${id}`);
+            const res = await fetch(`${BASE_URL}/${id}`);
             if(!res.ok) throw new Error("Faild to fetch city data");
 
             const json = await res.json();
@@ -65,7 +68,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`${window.location.origin}:9000/cities`, {
+            const res = await fetch(BASE_URL, {
                 method: "POST",
                 body: JSON.stringify(newCity),
                 headers: {
@@ -88,7 +91,7 @@ function CitiesProvider({ children }) {
         dispatch({ type: "loading" });
 
         try {
-            const res = await fetch(`${window.location.origin}:9000/cities/${id}`, {
+            const res = await fetch(`${BASE_URL}/${id}`, {
                 method: "DELETE"
             });
 
