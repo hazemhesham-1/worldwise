@@ -3,24 +3,10 @@
 
 [[redirects]]
     from = "/api/cities"
-    to = "/.netlify/functions/getCities"
+    to = "/.netlify/functions/handler"
     status = 200
-    conditions = { method = ["GET"] }
-
-[[redirects]]
-    from = "/api/cities"
-    to = "/.netlify/functions/addCity"
-    status = 200
-    conditions = { method = ["POST"] }
 
 [[redirects]]
     from = "/api/cities/*"
-    to = "/.netlify/functions/getCities"
+    to = "/.netlify/functions/handler"
     status = 200
-    conditions = { method = ["GET"] }
-
-[[redirects]]
-    from = "/api/cities/*"
-    to = "/.netlify/functions/deleteCity"
-    status = 200
-    conditions = { method = ["DELETE"] }
