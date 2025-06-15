@@ -75,15 +75,13 @@ function CitiesProvider({ children }) {
                     "Content-type": "application/json",
                 }
             });
+            if(!res.ok) throw new Error("There was an error adding the city...");
 
             const json = await res.json();
             dispatch({ type: "city/added", payload: json });
         }
-        catch {
-            dispatch({
-                type: "failed",
-                payload: "There was an error adding the city..."
-            });
+        catch(err) {
+            dispatch({ type: "failed", payload: err.message });
         }
     }
 
@@ -94,15 +92,13 @@ function CitiesProvider({ children }) {
             const res = await fetch(`${BASE_URL}/${id}`, {
                 method: "DELETE"
             });
+            if(!res.ok) throw new Error("There was an error deleting the city...");
 
             const json = await res.json();
             dispatch({ type: "city/deleted", payload: json });
         }
-        catch {
-            dispatch({
-                type: "failed",
-                payload: "There was an error deleting the city..."
-            });
+        catch(err) {
+            dispatch({ type: "failed", payload: err.message });
         }
     }
 
